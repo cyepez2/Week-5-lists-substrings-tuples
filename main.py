@@ -7,8 +7,8 @@
 ##############################################################################################################
 # basic review
 # Find and display on the screen which character occupies the fifth position within the following word:
-# computer = "computer"
- # print(computer[5])
+computer = "computer"
+print(computer[5])
 
 # Find and display the index of the last occurrence of the word "practice" in the following sentence:
 newSentence = "In theory, theory and practice are the same. In practice, they are not."
@@ -17,8 +17,17 @@ print(newSentence.rindex("practice"))
 ###############################################Review############################################################
 #####################################challenge 1################################################################
 # Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
-my_list = ["bay","ddaa", 34, 56]
+my_list = ["bay","ddaa", 34, 56, 78, 98, 102]
+#append adds to the end of the list
+my_list.append("jewelery")
+print(my_list)
+my_list.pop()
+# pop removes an item from the end
+my_list.remove("ddda")
 
+my_list.insert(3, "bobba bobba")
+
+print(my_list)
 
 # Add the element "motorcycle" to the following list of means of transportation:
 
