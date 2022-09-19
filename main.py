@@ -23,17 +23,20 @@ my_list.append("jewelery")
 print(my_list)
 my_list.pop()
 # pop removes an item from the end
-my_list.remove("ddda")
+my_list.remove("ddaa")
 
 my_list.insert(3, "bobba bobba")
 
 print(my_list)
 
+new_list = ["blue", "green", "red","orange", "yellow"]
+
+# my_list3 = my_list.extend(my_list2)
+
 # Add the element "motorcycle" to the following list of means of transportation:
 
-# transportation_means = ["plane", "car", "ship", "bicycle"]
-# transportation_means.append("motorcycle")
-# #append adds an element to the end
+# transportation_means = ["plane", "car", "ship", "bicycle"] transportation_means.append("motorcycle")
+# append adds an element to the end
 # print(transportation_means)
 # transportation_means.remove("car")
 # print(transportation_means)
@@ -49,17 +52,17 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-
+luckyFriends = luckyNumbers + friends
 ###### print the new list out
- #print(newList2)
+print(luckyFriends)
 ###### print out the first item in the list
-
+print = (luckyFriends[0])
 ###### remove the last item of the new list
-
+luckyFriends.pop
 ###### print the new list out without the last item
-
+# print(new_list2)
 ###### add three more items to the end of the list
-
+luckyFriends.append("Camelot")
 ###### print the last item in the new list
 
 ###### sort the list
@@ -69,23 +72,24 @@ friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 ###### print the new list out
 
 ##### reverse the list
-
+luckyFriends.reverse()
 ###### print the new list out
+ #print(luckyFriends)
 ###### print out the length of the new list
 
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 word_list = ["Simple", "is", "better", "than", "complex."]
-
+# print("     ".join(word_list))
 # Print the following text in uppercase, using the specific string method:
 
 text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
-
+print(text1.upper)
 #substrings
 # Take every third character starting from the ninth to the end of the sentence, and print the result.
 
 text2 = "Never trust a computer you can't throw out a window"
-
+print(text2[9::28])
 # Reverses the position of all the characters in the following sentence and displays the result on the screen.
 
 text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
